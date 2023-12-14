@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-namespace programci1  //Programci1 i�in tan�mlanan de�erler ve fonskiyonlar� belirtmek i�in..!
+namespace programci1  //Programci1 icin tanimlanan degerler ve fonskiyonlari belirtmek icin..!
 {
 	int x = 10;
 	void foo()
@@ -23,7 +23,7 @@ namespace programci2
 
 int main()
 {
-	cout << programci1::x << endl;  //Programci1 i�in tan�mlanan de�erler ve fonskiyonlar� kullanmak i�in..!
+	cout << programci1::x << endl;  //Programci1 icin tanimlanan degerler ve fonskiyonlari kullanmak icin..!
 	cout << programci2::x << endl;
 	programci1::foo();
 	programci2::foo();

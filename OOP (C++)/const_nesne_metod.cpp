@@ -27,7 +27,7 @@ void  Nokta::setX(int x) { this->x = x; }
 
 int Nokta::getY()const 
 { 
-	a = 100;  // Bu metotta yaln�z s�n��n harici d���ndaki bir de�i�kene m�dahale edilebilir!.
+	a = 100;
 	return y;
 }
 void  Nokta::setY(int y) { this->y = y; }
@@ -47,8 +47,8 @@ int main()
 	cout << "\n";
 
 	const Nokta B(40, 50, 60);
-	//B.setX(3) B.setY(5);       const nesneler i�in kullan�lamaz!.
-	//cout << "x : " << B.getX() << "\n" << "y : " << B.getY() << "\n" << "t : " << B.t << endl;      const nesneler i�in kullan�lamaz!.
+	//B.setX(3) B.setY(5);       const nesneler icin kullanilamaz!.
+	//cout << "x : " << B.getX() << "\n" << "y : " << B.getY() << "\n" << "t : " << B.t << endl;      const nesneler icin kullanilamaz!.
 
 	cout << "a : " << a << endl;
 }

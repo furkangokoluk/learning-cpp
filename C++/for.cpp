@@ -2,22 +2,24 @@
 
 using namespace std;
 
-void main()
+int main()
 {
-	int sayi;
-	int fakt�riyel = 1;
+    int sayi;
+    int faktoriyel = 1;
 
-	cout << "Faktoriyelini bulmak istediginiz sayiyi giriniz : ";
-	cin >> sayi;
+    cout << "Faktoriyelini bulmak istediginiz sayiyi giriniz : ";
+    cin >> sayi;
 
-	cout << "\n";
+    cout << "\n";
 
-	for (int i = 1; i <= sayi; i++) 
-	{
-		fakt�riyel *= i;
+    for (int i = 1; i <= sayi; i++)
+    {
+        faktoriyel *= i;
 
-		cout <<i;
-		cout << "! : ";
-		cout << fakt�riyel << endl;
-	}
+        cout << i;
+        cout << "! : ";
+        cout << faktoriyel << endl;
+    }
+
+    return 0;
 }

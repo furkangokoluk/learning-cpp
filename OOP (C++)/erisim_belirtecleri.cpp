@@ -25,7 +25,7 @@ int main()
 {
 	Nokta A;
 
-	//A.x = 10;        x private oldu�u i�im s�n�f d���ndan biyerden eri�ilip tan�mlanamaz!!
+	//A.x = 10;        x private oldugu icin sinif disindan bir yerden erisilip tanimlanamaz!!
 	A.y = 20;
 
 	A.degerAta(2, 0);

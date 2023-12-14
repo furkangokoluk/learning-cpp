@@ -1,32 +1,35 @@
 #include <iostream>
+
 using namespace std;
 
-int fakt�rial(int sayi)
+int faktorial(int sayi)
 {
-	int fakt�riyel = 1;
+    int faktoriyel = 1;
 
-	for(int i = 2 ; i <= sayi ; i++)
-	{
-		fakt�riyel = i * fakt�riyel;
-	}
+    for (int i = 2; i <= sayi; i++)
+    {
+        faktoriyel = i * faktoriyel;
+    }
 
-	return fakt�riyel;
+    return faktoriyel;
 }
 
-int main ()
+int main()
 {
-	while (true)
-	{
-		int sayi, sonu�;
+    while (true)
+    {
+        int sayi, sonuc;
 
-		cout << "Faktoriyelini hesaplamak istediginiz sayiyi giriniz : ";
-		cin >> sayi;
+        cout << "Faktoriyelini hesaplamak istediginiz sayiyi giriniz : ";
+        cin >> sayi;
 
-		sonu� = fakt�rial(sayi);
+        sonuc = faktorial(sayi);
 
-		cout << "Faktoriyelin sonucu : " << sonu� << endl;
-		cout << "\n";
-		cout << "------------------------------" << endl;
-		cout << "\n";
-	}
+        cout << "Faktoriyelin sonucu : " << sonuc << endl;
+        cout << "\n";
+        cout << "------------------------------" << endl;
+        cout << "\n";
+    }
+
+    return 0;
 }

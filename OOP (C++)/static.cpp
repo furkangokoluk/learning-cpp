@@ -7,7 +7,7 @@ private:
 	static int i;
 public:
 	Nokta();
-	static void Foo();                 // i static de�i�kenini bir fonksiyon i�inde kullanacaksak fonsiyonuda static tan�malamam�y�z!.
+	static void Foo();
 	static void Boo();
 	~Nokta();
 

@@ -33,8 +33,8 @@ int main()
 	Nokta B;
 	Nokta* C = &B;
 	Nokta* D = new Nokta;
-	Nokta array[10]; // Normal array tan�mlamas�!!
-	Nokta* pArray = new Nokta[10]; // Pointer array tan�mlamas�!!
+	Nokta array[10]; // Normal array tanimlamasi!!
+	Nokta* pArray = new Nokta[10]; // Pointer array tanimlamasi!!
 
 	A.degerAta(2, 0);
 	A.ekranaYaz();
@@ -56,7 +56,7 @@ int main()
 	for (int i = 0; i < 10; i++)
 	{
 		array[i].degerAta(i, i + 2);
-		(pArray + sizeof(Nokta) * i)->degerAta(i + 2, i + 5); //Pointer arrayler de bir sonraki indekse ge�mek i�in bu y�ntem kullan�l�r.
+		(pArray + sizeof(Nokta) * i)->degerAta(i + 2, i + 5); //Pointer arrayler de bir sonraki indekse gecmek icin bu yontem kullanilir.
 	}
 
 	for (int i = 0; i < 10; i++)

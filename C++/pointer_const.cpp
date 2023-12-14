@@ -3,8 +3,8 @@ using namespace std;
 
 void printArray(const int* ptr1, const int* ptr2)
 {
-	for (; ptr1 != ptr2; ptr1++)                      // Const olan pointerlarda pointer�n de�erini de�i�tirebiliriz fakat
-	{												  // pointer�n g�sterdi�i de�er de�i�tirimeyiz!!
+	for (; ptr1 != ptr2; ptr1++)                      // Const olan pointerlarda pointerin degerini degistirebiliriz fakat
+	{												  // pointerin gosterdigi deger degistirimeyiz!!
 		cout << *ptr1 << endl;
 	}
 }

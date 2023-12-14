@@ -4,11 +4,11 @@ using namespace std;
 int main()
 {
 	int a = 8;
-	a = 1;                  // de�i�ken de�eri hatas�z de�i�tirilebiliyor.
+	a = 1;                  // degisken degeri hatasiz degistirilebiliyor.
 
 	cout << a << endl;
 
 	const int f = 10;
 
-	//f = 20;                  de�i�ken de�eri de�i�tirilemiyor.
+	//f = 20;                  degisken degeri degistirilemiyor.
 }

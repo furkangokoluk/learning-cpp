@@ -11,7 +11,7 @@ public:
 };
 
 
-Nokta::Nokta(int x = 10, int y = 20, int t = 0) : t(t) // t ifadesi bu kullan�mla istedi�imiz say�ya atanabilir..
+Nokta::Nokta(int x = 10, int y = 20, int t = 0) : t(t) // t ifadesi bu kullanimla istedigimiz sayiya atanabilir..
 {
 	this->x = x;
 	this->y = y;

@@ -2,48 +2,47 @@
 using namespace std;
 
 int main()
-{	
-	float a, b, sonu�;
-	int i�lem;
+{
+    float a, b, sonuc;
+    int islem;
 
-	while (true)
-	{
+    while (true)
+    {
+        cout << "Islem yapilacak sayilari giriniz :" << endl;
 
-		cout << "Islem yapilacak sayilari giriniz :" << endl;
+        cin >> a;
+        cin >> b;
 
-		cin >> a;
-		cin >> b;
+        cout << "\nToplama -> 1 \nCikar -> 2 \nCarp -> 3 \nBol -> 4 \n\nYapmak istediginiz islemi seciniz : ";
+        cin >> islem;
 
+        cout << "\n";
 
-		cout << "\nToplama -> 1 \nCikar -> 2 \nCarp -> 3 \nBol -> 4 \n\nYapmak istediginiz islemi seciniz : ";
+        switch (islem)
+        {
+        case 1:
+            sonuc = a + b;
+            cout << "Toplam : " << sonuc;
+            break;
 
-		cin >> i�lem;
+        case 2:
+            sonuc = a - b;
+            cout << "Cikartim : " << sonuc;
+            break;
 
-		cout << "\n";
+        case 3:
+            sonuc = a * b;
+            cout << "Carpim : " << sonuc;
+            break;
 
+        case 4:
+            sonuc = a / b;
+            cout << "Bolum : " << sonuc;
+            break;
+        }
 
-		switch (i�lem)
-		{
-		case 1:
-			sonu� = a + b;
-			cout << "Toplam : " << sonu�;
-			break;
+        cout << "\n---------------------------------------------------------------\n";
+    }
 
-		case 2:
-			sonu� = a - b;
-			cout << "Cikartim : " << sonu�;
-			break;
-
-		case 3:
-			sonu� = a * b;
-			cout << "Carpim : " << sonu�;
-			break;
-
-		case 4:
-			sonu� = a / b;
-			cout << "Bolum : " << sonu�;
-			break;
-		}
-		cout << "\n---------------------------------------------------------------\n1";
-	}
+    return 0;
 }
