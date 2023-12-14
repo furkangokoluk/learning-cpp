@@ -1,4 +1,0 @@
-﻿  Kaynak.cpp
-C:\Users\Furkan\Desktop\Projeler\OOP (C++)\OPP - Toplama Operatörünü Aşırı Yükleme\OPP - Toplama Operatörünü Aşırı Yükleme\Kaynak.cpp(93,12): warning C4244: 'bağımsız değişken': 'time_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
-C:\Users\Furkan\Desktop\Projeler\OOP (C++)\OPP - Toplama Operatörünü Aşırı Yükleme\OPP - Toplama Operatörünü Aşırı Yükleme\Kaynak.cpp(89): warning C4715: 'Kolon::operator+': tüm denetim yolları değer döndürmez
-  OPP - Toplama Operatörünü Aşırı Yükleme.vcxproj -> C:\Users\Furkan\Desktop\Projeler\OOP (C++)\OPP - Toplama Operatörünü Aşırı Yükleme\x64\Debug\OPP - Toplama Operatörünü Aşırı Yükleme.exe
