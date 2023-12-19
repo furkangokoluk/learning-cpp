@@ -64,6 +64,8 @@ class Musteri
     {
         sepet[urunSayisi] = Mal (malAdi, malFiyati);
         urunSayisi++;
+        if (malFiyati < 0)
+            malFiyati = 0 ;
         hesaplanmisOdeme +=  malFiyati;
         indirimliOdeme = (hesaplanmisOdeme * musteriPromosyonu) / 100;
     }
